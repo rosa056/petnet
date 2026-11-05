@@ -1,0 +1,28 @@
+/* html {font-size: 20px;} */
+
+/* h1 {font-size: 3rem;} */
+
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,300&display=swap');
+
+
+
+:root,[data-bs-theme=light]{--bs-dark-rgb:120, 212, 62;}
+
+/* 變更根元素大小 */
+html {font-size: 20px;}
+
+body{font-family:"微軟正黑體", "Chiron Hei HK", sans-serif;}
+
+body {font-family: "微軟正黑體","Noto Sans TC",sans-serif;}
+
+/* 標題一級的文字大小 */
+h1 {font-size: 2rem;}
+
+/* 標題二級的文字設定，選取器是標籤，影響整體 */
+h2 {font-size: 1.8rem;font-weight: 800;color:rgb(14, 137, 225)}
+
+/* 選取器是類別，影響個別，需要手動套用 */
+.h2-custom-pink{font-size: 1.8rem;font-weight: 800;color: rgb(31, 167, 87);}
+
+/* 段落間距:與前段距離、與後段距離 */
+p{margin-top: 1; margin-bottom: 1rem;}
